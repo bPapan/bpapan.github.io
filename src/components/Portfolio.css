@@ -22,7 +22,7 @@
   position: fixed;
   top: 0;
   left: 0;
-  width: 320px;
+  width: 420px;
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -91,7 +91,7 @@
 /* ---- Main Content (Right Column) ---- */
 
 .portfolio-content {
-  margin-left: 320px;
+  margin-left: 420px;
   flex: 1;
   min-height: 100vh;
   padding: 0;
@@ -151,6 +151,44 @@
   font-size: 1rem;
   line-height: 1.7;
   color: #444;
+}
+
+/* ---- Publications List ---- */
+
+.publications-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.publications-list li {
+  margin-bottom: 24px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #f0f0f0;
+  font-size: 0.95rem;
+  line-height: 1.7;
+  color: #333;
+}
+
+.publications-list li:last-child {
+  border-bottom: none;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.publications-list li a {
+  color: #4a9eff;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.publications-list li a:hover {
+  text-decoration: underline;
+}
+
+.publications-list li strong {
+  font-weight: 600;
+  color: #1a1a1a;
 }
 
 /* ===================================
