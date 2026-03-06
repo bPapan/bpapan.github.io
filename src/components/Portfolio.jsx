@@ -50,9 +50,9 @@ const Portfolio = () => {
           <ul className="publications-list">
             <li>
               Ke Han, PC Sruthi, Yayu Wang, Yaoxu Song, <strong>Bishal Basak Papan</strong>, Junwen Yang, Pedro Fonseca, Yongle Zhang,
-              "UpFuzz: Detecting Data Format Incompatibility Bugs During Distributed Storage System Upgrade",{' '}
+              "UpFuzz: Detecting Data Format Incompatibility Bugs During Distributed Storage System Upgrade", (Accepted at) {' '} 
               <a href="https://www.usenix.org/conference/nsdi26/presentation/han" target="_blank" rel="noreferrer">
-                Accepted at 23rd USENIX Symposium on Networked Systems Design and Implementation (NSDI '26)
+               23rd USENIX Symposium on Networked Systems Design and Implementation (NSDI '26)
               </a>, Renton, Washington.
             </li>
             <li>
