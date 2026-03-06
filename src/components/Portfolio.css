@@ -1,0 +1,237 @@
+/* ===================================
+   Single-Page Portfolio Layout
+   =================================== */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.portfolio-page {
+  display: flex;
+  min-height: 100vh;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  color: #333;
+  background: #fff;
+}
+
+/* ---- Sidebar (Left Column) ---- */
+
+.portfolio-sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 320px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
+  background: #fafafa;
+  border-right: 1px solid #e8e8e8;
+  overflow-y: auto;
+}
+
+.sidebar-photo-wrapper {
+  width: 100%;
+  padding: 0;
+}
+
+.sidebar-photo {
+  width: 100%;
+  height: auto;
+  display: block;
+  border: 3px solid #4a9eff;
+}
+
+.sidebar-info {
+  padding: 24px 24px 32px;
+  text-align: center;
+  width: 100%;
+}
+
+.sidebar-name {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin-bottom: 6px;
+  line-height: 1.3;
+}
+
+.sidebar-title {
+  font-size: 0.95rem;
+  color: #555;
+  margin-bottom: 2px;
+}
+
+.sidebar-affiliation {
+  font-size: 0.9rem;
+  color: #777;
+  margin-bottom: 20px;
+}
+
+.sidebar-links {
+  display: flex;
+  justify-content: center;
+  gap: 18px;
+}
+
+.sidebar-links a {
+  color: #555;
+  font-size: 1.25rem;
+  transition: color 0.2s ease;
+  text-decoration: none;
+}
+
+.sidebar-links a:hover {
+  color: #4a9eff;
+}
+
+/* ---- Main Content (Right Column) ---- */
+
+.portfolio-content {
+  margin-left: 320px;
+  flex: 1;
+  min-height: 100vh;
+  padding: 0;
+}
+
+/* ---- Navigation ---- */
+
+.portfolio-nav {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  display: flex;
+  gap: 0;
+  background: #fff;
+  border-bottom: 1px solid #e8e8e8;
+  padding: 0 40px;
+}
+
+.portfolio-nav a {
+  padding: 16px 20px;
+  text-decoration: none;
+  color: #666;
+  font-size: 0.95rem;
+  font-weight: 500;
+  border-bottom: 2px solid transparent;
+  transition: color 0.2s ease, border-color 0.2s ease;
+}
+
+.portfolio-nav a:hover {
+  color: #1a1a1a;
+  border-bottom-color: #4a9eff;
+}
+
+/* ---- Sections ---- */
+
+.portfolio-section {
+  padding: 48px 40px;
+  border-bottom: 1px solid #f0f0f0;
+  min-height: 300px;
+}
+
+.portfolio-section:last-child {
+  border-bottom: none;
+}
+
+.portfolio-section h2 {
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #4a9eff;
+  display: inline-block;
+}
+
+.portfolio-section p {
+  font-size: 1rem;
+  line-height: 1.7;
+  color: #444;
+}
+
+/* ===================================
+   Mobile Layout (< 1280px)
+   =================================== */
+
+@media (max-width: 1279px) {
+  .portfolio-page {
+    flex-direction: column;
+  }
+
+  .portfolio-sidebar {
+    position: relative;
+    width: 100%;
+    height: auto;
+    border-right: none;
+    border-bottom: 1px solid #e8e8e8;
+    padding: 40px 20px 30px;
+  }
+
+  .sidebar-photo-wrapper {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto 20px;
+    border-radius: 50%;
+    overflow: hidden;
+  }
+
+  .sidebar-photo {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top center;
+    border: 3px solid #4a9eff;
+    border-radius: 50%;
+  }
+
+  .portfolio-content {
+    margin-left: 0;
+  }
+
+  .portfolio-nav {
+    padding: 0 20px;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .portfolio-nav a {
+    padding: 14px 16px;
+    font-size: 0.9rem;
+    white-space: nowrap;
+  }
+
+  .portfolio-section {
+    padding: 32px 20px;
+    min-height: 200px;
+  }
+
+  .portfolio-section h2 {
+    font-size: 1.4rem;
+  }
+}
+
+/* ---- Small Mobile ---- */
+
+@media (max-width: 480px) {
+  .sidebar-photo-wrapper {
+    width: 160px;
+    height: 160px;
+  }
+
+  .sidebar-name {
+    font-size: 1.2rem;
+  }
+
+  .portfolio-nav a {
+    padding: 12px 12px;
+    font-size: 0.85rem;
+  }
+
+  .portfolio-section {
+    padding: 24px 16px;
+  }
+}
