@@ -49,36 +49,36 @@ const Portfolio = () => {
           <h2>Publications</h2>
           <ul className="publications-list">
             <li>
-              Ke Han, PC Sruthi, Yayu Wang, Yaoxu Song, <strong>Bishal Basak Papan</strong>, Junwen Yang, Pedro Fonseca, Yongle Zhang,
-              "UpFuzz: Detecting Data Format Incompatibility Bugs During Distributed Storage System Upgrade",
+              Ke Han, PC Sruthi, Yayu Wang, Yaoxu Song, <strong>Bishal Basak Papan</strong>, Junwen Yang, Pedro Fonseca, Yongle Zhang, 
+              "UpFuzz: Detecting Data Format Incompatibility Bugs During Distributed Storage System Upgrade", (Accepted at)
               <a href="https://www.usenix.org/conference/nsdi26/presentation/han" target="_blank" rel="noreferrer">
-                Accepted at 23rd USENIX Symposium on Networked Systems Design and Implementation (NSDI '26)
+               23rd USENIX Symposium on Networked Systems Design and Implementation (NSDI '26)
               </a>, Renton, Washington.
             </li>
             <li>
-              Zahin Wahab, <strong>Bishal Basak Papan</strong>, Md. Shohrab Hossain, Md. Atiquzzaman,
-              "Dealing with Smart GPS Spoofing Attacks in VANETs: 3BSM Approach",
+              Zahin Wahab, <strong>Bishal Basak Papan</strong>, Md. Shohrab Hossain, Md. Atiquzzaman, 
+              "Dealing with Smart GPS Spoofing Attacks in VANETs: 3BSM Approach", 
               <a href="https://ieeexplore.ieee.org/abstract/document/10623066" target="_blank" rel="noreferrer">
                 2024 IEEE International Conference on Communications (ICC)
               </a>, Denver, Colorado.
             </li>
             <li>
-              Sheikh Azizul Hakim, <strong>Bishal Basak Papan</strong>, Md. Saidur Rahman,
-              "New Results on Pairwise Compatibility Graphs",
+              Sheikh Azizul Hakim, <strong>Bishal Basak Papan</strong>, Md. Saidur Rahman, 
+              "New Results on Pairwise Compatibility Graphs", 
               <a href="https://doi.org/10.1016/j.ipl.2022.106284" target="_blank" rel="noreferrer">
                 Information Processing Letters
               </a>, Elsevier, May 2022.
             </li>
             <li>
-              <strong>Bishal Basak Papan</strong>, Protik Bose Pranto, Md. Saidur Rahman,
-              "On 2-Interval Pairwise Compatibility Properties of Two Classes of Grid Graphs",
+              <strong>Bishal Basak Papan</strong>, Protik Bose Pranto, Md. Saidur Rahman, 
+              "On 2-Interval Pairwise Compatibility Properties of Two Classes of Grid Graphs", 
               <a href="https://academic.oup.com/comjnl/advance-article-abstract/doi/10.1093/comjnl/bxac011/6536120" target="_blank" rel="noreferrer">
                 The Computer Journal
               </a>, Oxford University Press, February 2022.
             </li>
             <li>
-              Protik Bose Pranto, <strong>Bishal Basak Papan</strong>, Md. Saidur Rahman,
-              "k-Safe Labelings of Connected Graphs",
+              Protik Bose Pranto, <strong>Bishal Basak Papan</strong>, Md. Saidur Rahman, 
+              "k-Safe Labelings of Connected Graphs", 
               <a href="https://doi.org/10.1109/ICTP53732.2021.9744182" target="_blank" rel="noreferrer">
                 2021 IEEE International Conference on Telecommunication and Photonics (ICTP)
               </a>, Dhaka, Bangladesh.
