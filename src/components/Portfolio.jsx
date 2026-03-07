@@ -58,8 +58,8 @@ const Portfolio = () => {
             <p className="experience-date">January 2024 - Present</p>
             <p><strong>Courses:</strong></p>
             <ul>
-              <li><strong>CS 252 Systems Programming</strong> (Spring 2024, Spring 2025, Summer 2025, Spring 2026)</li>
-              <li><strong>CS 307 Software Engineering I</strong> (Fall 2024, Fall 2025)</li>
+              <li>CS 252 Systems Programming (Spring 2024, Spring 2025, Summer 2025, Spring 2026)</li>
+              <li>CS 307 Software Engineering I (Fall 2024, Fall 2025)</li>
             </ul>
           </div>
 
