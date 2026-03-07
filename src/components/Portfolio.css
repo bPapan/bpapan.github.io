@@ -153,6 +153,18 @@
   color: #444;
 }
 
+/* ---- About Section Personal Text ---- */
+
+.personal_text a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.personal_text a:hover {
+  text-decoration: underline;
+  color: #4a9eff;
+}
+
 /* ---- Publications List ---- */
 
 .publications-list {
