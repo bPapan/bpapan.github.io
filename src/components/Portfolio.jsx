@@ -51,7 +51,43 @@ const Portfolio = () => {
 
         <section id="experience" className="portfolio-section">
           <h2>Experience</h2>
-          <p>Content coming soon.</p>
+
+          <div className="experience-item">
+            <h3>Graduate Teaching Assistant</h3>
+            <p className="experience-location"><strong>Purdue University</strong>, West Lafayette, Indiana</p>
+            <p className="experience-date">January 2024 - Present</p>
+            <ul>
+              <li><strong>CS 252 Systems Programming</strong> (Spring 2024, Spring 2025, Summer 2025, Spring 2026)</li>
+              <li><strong>CS 307 Software Engineering I</strong> (Fall 2024, Fall 2025)</li>
+            </ul>
+          </div>
+
+          <div className="experience-item">
+            <h3>Software Developer (Remote)</h3>
+            <p className="experience-location">
+              <a href="https://www2.inceptasolutions.com/" target="_blank" rel="noreferrer"><strong>Incepta Solutions Inc</strong></a>, Ontario, Canada
+            </p>
+            <p className="experience-date">June 2021 - July 2023</p>
+            <p><em>Languages and Frameworks:</em> Java, TypeScript, Python, MuleSoft, Workato, React</p>
+            <p><strong>Projects:</strong></p>
+            <ul>
+              <li>
+                API integration through <a href="https://www.mulesoft.com/" target="_blank" rel="noreferrer">MuleSoft</a> for{' '}
+                <a href="https://www2.inceptasolutions.com/smartconnect/" target="_blank" rel="noreferrer">Incepta SmartConnect</a>,
+                an IoT platform solution: connected systems like SMTP, Twilio, Azure with SmartConnect portal through MuleSoft
+              </li>
+              <li>
+                MuleSoft Integration support for{' '}
+                <a href="https://www.tngoc.com/" target="_blank" rel="noreferrer">The Nationwide Group of Companies</a>:
+                worked on migrating NAS mobile app middleware from Mule 3.9 to Mule 4.4 using MuleSoft and Java
+              </li>
+              <li>
+                <a href="https://www2.inceptasolutions.com/hrtech/" target="_blank" rel="noreferrer">Incepta HRTech</a>,
+                HR Automation system that enables faster HR on-boarding: implemented a proof-of-concept applicant tracking system
+                using React, TypeScript, Workato and Salesforce
+              </li>
+            </ul>
+          </div>
         </section>
 
         <section id="publications" className="portfolio-section">
