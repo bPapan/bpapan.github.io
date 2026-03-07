@@ -133,7 +133,69 @@ const Portfolio = () => {
 
         <section id="projects" className="portfolio-section">
           <h2>Projects</h2>
-          <p>Content coming soon.</p>
+
+          <div className="project-item">
+            <div className="project-header">
+              <h3>UpFuzz</h3>
+              <a href="https://github.com/zlab-purdue/upfuzz" target="_blank" rel="noreferrer" className="project-github">GitHub</a>
+            </div>
+            <ul>
+              <li>A framework for detecting upgrade bugs for distributed storage systems</li>
+              <li>Implemented an efficient feedback collection technique using parallel execution of tests.</li>
+              <li>Integrated a virtual machine based snapshot mechanism to improve the efficiency of the framework.</li>
+            </ul>
+          </div>
+
+          <div className="project-item">
+            <div className="project-header">
+              <h3>Automated Generation of Verus Specs through LLM</h3>
+              <a href="https://github.com/Athryx/560_project" target="_blank" rel="noreferrer" className="project-github">GitHub</a>
+            </div>
+            <ul>
+              <li>Integration of symbolic execution tools like Seahorn and Crucible with AutoVerus</li>
+              <li>Users can write only the preconditions and the postconditions of a Rust program, and our pipeline generates a Verus Specification from that</li>
+              <li>The output of running symbolic execution tools on the rust program are used to assist the LLM get better results in fewer iterations</li>
+            </ul>
+          </div>
+
+          <div className="project-item">
+            <div className="project-header">
+              <h3>GPS Spoofing Detection in VANETs using ML</h3>
+            </div>
+            <ul>
+              <li>
+                Detection of GPS Spoofing attack in a VANET from three consecutive BSM packets using the{' '}
+                <a href="https://veremi-dataset.github.io/" target="_blank" rel="noreferrer">VeReMi</a> dataset
+              </li>
+              <li>Performance comparison with existing two consecutive BSM approach on KNN, Naive Bayes, Decision Tree and Random Forest models</li>
+              <li>Analyzing how three consecutive BSM approach beats the existing two consecutive BSM approach</li>
+            </ul>
+          </div>
+
+          <div className="project-item">
+            <div className="project-header">
+              <h3>A Comparison of Modern JVM Based Garbage Collectors</h3>
+              <a href="https://github.com/bPapan/Peformance-Study-of-Modern-JVM-GCs" target="_blank" rel="noreferrer" className="project-github">GitHub</a>
+            </div>
+            <ul>
+              <li>A study of the performance of three JVM based garbage collectors: G1GC, ZGC and Shenandoah</li>
+              <li>
+                Observed performance variation with modifying heap sizes by analyzing log files using{' '}
+                <a href="https://gceasy.io/" target="_blank" rel="noreferrer">GCEasy</a>
+              </li>
+              <li>Comparing their performance on several big-data benchmarks from two Benchmark Suites: Renaissance and DaCapo, on OpenJDK Java version 11.0.15</li>
+            </ul>
+          </div>
+
+          <div className="project-item">
+            <div className="project-header">
+              <h3>Predicting Football Players' Injuries from Past Injuries</h3>
+            </div>
+            <ul>
+              <li>Developed crawlers to collect data from a website and collected injury history along with other relevant data of around 4000 footballers currently playing</li>
+              <li>Used deep learning models to predict footballers' injuries using time series forecasting techniques</li>
+            </ul>
+          </div>
         </section>
       </main>
     </div>
