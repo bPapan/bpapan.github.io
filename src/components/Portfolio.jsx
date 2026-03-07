@@ -22,8 +22,8 @@ const Portfolio = () => {
             <a href="mailto:bbasakpapan@gmail.com" aria-label="Email"><i className="fa fa-envelope"></i></a>
             <a href="https://bpapan.github.io/CV/" target="_blank" rel="noreferrer" aria-label="CV"><i className="fa fa-file-pdf-o"></i></a>
             <a href="https://github.com/bPapan" target="_blank" rel="noreferrer" aria-label="GitHub"><i className="fa fa-github"></i></a>
-            <a href="https://scholar.google.com/" target="_blank" rel="noreferrer" aria-label="Google Scholar"><i className="fa fa-graduation-cap"></i></a>
-            <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer" aria-label="LinkedIn"><i className="fa fa-linkedin"></i></a>  
+            <a href="https://scholar.google.com/citations?user=N0tlETYAAAAJ&hl=en" target="_blank" rel="noreferrer" aria-label="Google Scholar"><i className="fa fa-graduation-cap"></i></a>
+            <a href="https://www.linkedin.com/in/bishal-basak-papan-497383142/" target="_blank" rel="noreferrer" aria-label="LinkedIn"><i className="fa fa-linkedin"></i></a>  
           </div>
         </div>
       </aside>
