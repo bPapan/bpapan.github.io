@@ -44,7 +44,7 @@ const Portfolio = () => {
 							<p>Hello Everybody, I am Bishal Basak Papan, a Graduate Teaching Assistant at <a href="https://www.cs.purdue.edu/graduate/index.html">Purdue University</a></p>
 							{/* <p>I am Interested in doing research on Software Engineering, Machine Learning, Security and Algorithms. Also, I like developing Software Systems.</p> */}
 							<p> I am a Third year Computer Science Ph.D. student. My research focus is on Machine Learning assisted Software Engineering. <br></br>
-								My advisor is <a href="https://yonglezh-purdue.github.io/" style={{color: '#000'}}> Dr. Yongle Zhang.</a><br></br> 
+								My advisor is <a href="https://yonglezh-purdue.github.io/">Dr. Yongle Zhang.</a><br></br>
 							</p>
 						  </div>
         </section>
