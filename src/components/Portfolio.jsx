@@ -16,12 +16,14 @@ const Portfolio = () => {
         <div className="sidebar-info">
           <h1 className="sidebar-name">Bishal Basak Papan</h1>
           <p className="sidebar-title">Ph.D. Student, Computer Science</p>
-          <p className="sidebar-affiliation">Purdue University</p>
+          <p className="sidebar-affiliation">Purdue University <br /> West Lafayette, Indiana </p>
+          {/* <p className="sidebar-affiliation"></p> */}
           <div className="sidebar-links">
-            <a href="mailto:bbasak@purdue.edu" aria-label="Email"><i className="fa fa-envelope"></i></a>
+            <a href="mailto:bbasakpapan@gmail.com" aria-label="Email"><i className="fa fa-envelope"></i></a>
+            <a href="https://bpapan.github.io/CV/" target="_blank" rel="noreferrer" aria-label="CV"><i className="fa fa-file-pdf-o"></i></a>
             <a href="https://github.com/bPapan" target="_blank" rel="noreferrer" aria-label="GitHub"><i className="fa fa-github"></i></a>
             <a href="https://scholar.google.com/" target="_blank" rel="noreferrer" aria-label="Google Scholar"><i className="fa fa-graduation-cap"></i></a>
-            <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer" aria-label="LinkedIn"><i className="fa fa-linkedin"></i></a>
+            <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer" aria-label="LinkedIn"><i className="fa fa-linkedin"></i></a>  
           </div>
         </div>
       </aside>
@@ -37,7 +39,14 @@ const Portfolio = () => {
 
         <section id="about" className="portfolio-section">
           <h2>About</h2>
-          <p>Content coming soon.</p>
+          {/* <p>Content coming soon.</p> */}
+          <div className="personal_text">
+							<p>Hello Everybody, I am Bishal Basak Papan, a Graduate Teaching Assistant at <a href="https://www.cs.purdue.edu/graduate/index.html">Purdue University</a></p>
+							{/* <p>I am Interested in doing research on Software Engineering, Machine Learning, Security and Algorithms. Also, I like developing Software Systems.</p> */}
+							<p> I am a Third year Computer Science Ph.D. student. My research focus is on Machine Learning assisted Software Engineering. <br></br>
+								My advisor is <a href="https://yonglezh-purdue.github.io/" style={{color: '#000'}}> Dr. Yongle Zhang.</a><br></br> 
+							</p>
+						  </div>
         </section>
 
         <section id="experience" className="portfolio-section">
