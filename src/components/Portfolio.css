@@ -130,7 +130,7 @@
 .portfolio-section {
   padding: 48px 40px;
   border-bottom: 1px solid #f0f0f0;
-  min-height: 300px;
+  min-height: 150px;
 }
 
 .portfolio-section:last-child {

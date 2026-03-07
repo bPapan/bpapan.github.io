@@ -56,6 +56,7 @@ const Portfolio = () => {
             <h3>Graduate Teaching Assistant</h3>
             <p className="experience-location"><strong>Purdue University</strong>, West Lafayette, Indiana</p>
             <p className="experience-date">January 2024 - Present</p>
+            <p><strong>Courses:</strong></p>
             <ul>
               <li><strong>CS 252 Systems Programming</strong> (Spring 2024, Spring 2025, Summer 2025, Spring 2026)</li>
               <li><strong>CS 307 Software Engineering I</strong> (Fall 2024, Fall 2025)</li>
@@ -68,7 +69,6 @@ const Portfolio = () => {
               <a href="https://www2.inceptasolutions.com/" target="_blank" rel="noreferrer"><strong>Incepta Solutions Inc</strong></a>, Ontario, Canada
             </p>
             <p className="experience-date">June 2021 - July 2023</p>
-            <p><em>Languages and Frameworks:</em> Java, TypeScript, Python, MuleSoft, Workato, React</p>
             <p><strong>Projects:</strong></p>
             <ul>
               <li>
